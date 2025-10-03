@@ -31,8 +31,8 @@ const Landing: React.FC = () => {
         {/* Large Buttons */}
         <div>
           <h3 className="text-lg font-semibold">Large Buttons</h3>
-          <Button title="Large" styles="bg-blue-500 hover:bg-blue-700 text-lg rounded-sm" />
-          <Button title="Large" styles="bg-green-500 hover:bg-green-700 text-lg rounded-md ml-2" />
+          <Button title="Large" styles="bg-blue-500 hover:bg-blue-700 text-lg rounded-lg" />
+          <Button title="Large" styles="bg-green-500 hover:bg-green-700 text-lg rounded-lg ml-2" />
           <Button title="Large" styles="bg-red-500 hover:bg-red-700 text-lg rounded-full ml-2" />
         </div>
       </div>
